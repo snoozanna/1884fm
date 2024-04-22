@@ -174,8 +174,7 @@ setup.backTen = () => {
 <<set $sound to true>>
 <<set $showMenu to true>>
 <<set $menuOpen to false>>
-/* <<set $audiooptions to ["audio1", "audio2", "audio3"]>> */
-   <<set $audiooptions to ["audio1", "audio2", "audio3"]>>
+   <<set $audiooptions to ["audio1", "audio2", "audio3", "audio4", "audio5", "audio6"]>>
  <<set $audiooptionscopy to $audiooptions>>
 
 <header/>
@@ -777,7 +776,271 @@ setup.backTen = () => {
 <</timed>>
 
 
+:: audio4 [nobr]
+<source  src="../assets/memorial/audio4.mp3">
+
+
+:: audio4cap [nobr]
+<<timed 1s>>
+  <<replace "#caption">>
+    <<type 30ms>>  
+<p>I really appreciated the interactive element of this show. </p>
+<</type>>
+<</replace>>
+<</timed>>
+<<timed 5s>>
+  <<replace "#caption">>
+    <<type 40ms>>  
+<p>Normally, one experiences colonization in a more removed way </p>
+<</type>>
+<</replace>>
+<</timed>>
+<<timed 10s>>
+  <<append "#caption">>
+    <<type 40ms>>  
+<p>by studying history, </p>
+<</type>>
+<</append>>
+<</timed>>
+<<timed 13s>>
+  <<replace "#caption">>
+    <<type 40ms>>  
+<p>or perhaps those of us </p>
+<</type>>
+<</replace>>
+<</timed>>
+<<timed 16s>>
+  <<append "#caption">>
+    <<type 40ms>>  
+<p>from Western European cultures </p>
+<</type>>
+<</append>>
+<</timed>>
+<<timed 19s>>
+  <<append "#caption">>
+    <<type 30ms>>  
+<p>think of it as something that happens farther away. </p>
+<</type>>
+<</append>>
+<</timed>>
+<<timed 23s>>
+  <<replace "#caption">>
+    <<type 40ms>>  
+<p>Whereas in this show </p>
+<</type>>
+<</replace>>
+<</timed>>
+<<timed 24s>>
+  <<append "#caption">>
+    <<type 40ms>>  
+<p>you get to engage with the topic firsthand </p>
+<</type>>
+<</append>>
+<</timed>>
+<<timed 27s>>
+  <<append "#caption">>
+    <<type 40ms>>  
+<p>because of the interactive format.</p>
+<</type>>
+<</append>>
+<</timed>>
 
 
 
+:: audio5 [nobr]
+<source  src="../assets/memorial/audio5.mp3">
 
+:: audio5cap [nobr]
+
+<<timed 1s>>
+  <<replace "#caption">>
+    <<type 30ms>>  
+<p>The show made me think about </p>
+<</type>>
+<</replace>>
+<</timed>>
+
+<<timed 3.5s>>
+  <<replace "#caption">>
+    <<type 70ms>>  
+<p>how quick and easy it is to form </p>
+<</type>>
+<</replace>>
+<</timed>>
+
+<<timed 8s>>
+  <<append "#caption">>
+    <<type 40ms>>  
+<p>bonds with people</p>
+<</type>>
+<</append>>
+<</timed>>
+
+<<timed 10.5s>>
+  <<replace "#caption">>
+    <<type 30ms>>  
+<p>and find connection with strangers </p>
+<</type>>
+<</replace>>
+<</timed>>
+
+<<timed 13.5s>>
+  <<replace "#caption">>
+    <<type 40ms>>  
+<p>and how difficult it is </p>
+<</type>>
+<</replace>>
+<</timed>>
+
+<<timed 18s>>
+  <<append "#caption">>
+    <<type 40ms>>  
+<p>to break those bonds </p>
+<</type>>
+<</append>>
+<</timed>>
+
+<<timed 20.5s>>
+  <<replace "#caption">>
+    <<type 40ms>>  
+<p>and how irreversible </p>
+<</type>>
+<</replace>>
+<</timed>>
+
+<<timed 22s>>
+  <<append "#caption">>
+    <<type 40ms>>  
+<p>those bonds or connections or relationships feel</p>
+<</type>>
+<</append>>
+<</timed>>
+
+
+
+:: audio6 [nobr]
+<source  src="../assets/memorial/audio6.mp3">
+
+
+:: audio6cap[nobr]
+
+
+<<timed 01s>>
+  <<replace "#caption">>
+    <<type 40ms>>  
+<p>So I attended the event a couple of days ago,</p>
+<</type>>
+<</replace>>
+<</timed>>
+
+<<timed 3s>>
+  <<append "#caption">>
+    <<type 40ms>>  
+<p>and I've really been thinking about it a lot since <br/>I found it very powerful. </p>
+<</type>>
+<</append>>
+<</timed>>
+
+<<timed 08s>>
+  <<replace "#caption">>
+    <<type 40ms>>  
+<p>I live very close to Shoreditch Town Hall, in the boundary estate. </p>
+<</type>>
+<</replace>>
+<</timed>>
+
+<<timed 11s>>
+  <<append "#caption">>
+    <<type 60ms>>  
+<p>And it's a community that has its own very strong identity, </p>
+<</type>>
+<</append>>
+<</timed>>
+
+<<timed 16.5s>>
+  <<replace "#caption">>
+    <<type 40ms>>  
+<p>but is also very often under threat from gentrification </p>
+<</type>>
+<</replace>>
+<</timed>>
+
+<<timed 21s>>
+  <<append "#caption">>
+    <<type 40ms>>  
+<p>and the need for the council to, <br/>to have enough money to, <br/>to look after the buildings properly. </p>
+<</type>>
+<</append>>
+<</timed>>
+
+<<timed 28s>>
+  <<replace "#caption">>
+    <<type 40ms>>  
+<p>So it was really resonant,<br/> and it made me think about how lucky we are <br/>that even though decisions are made, </p>
+<</type>>
+<</replace>>
+<</timed>>
+
+<<timed 34s>>
+  <<append "#caption">>
+    <<type 30ms>>  
+<p>sometimes without the community's input, </p>
+<</type>>
+<</append>>
+<</timed>>
+
+<<timed 37s>>
+  <<replace "#caption">>
+    <<type 40ms>>  
+<p>we do have a way to challenge them, </p>
+<</type>>
+<</replace>>
+<</timed>>
+
+<<timed 39s>>
+  <<append "#caption">>
+    <<type 40ms>>  
+<p>at least to a certain extent, through relationships with local councillors, </p>
+<</type>>
+<</append>>
+<</timed>>
+
+<<timed 44s>>
+  <<append "#caption">>
+    <<type 30ms>>  
+<p>and the council and the mayor, </p>
+<</type>>
+<</append>>
+<</timed>>
+
+<<timed 46.5s>>
+  <<replace "#caption">>
+    <<type 40ms>>  
+<p>and how absolutely disempowering it is when you don't have those ways </p>
+<</type>>
+<</replace>>
+<</timed>>
+
+<<timed 50s>>
+  <<append "#caption">>
+    <<type 40ms>>  
+<p>of making decisions about your own lives and your own community and your own culture. </p>
+<</type>>
+<</append>>
+<</timed>>
+
+<<timed 56s>>
+  <<replace "#caption">>
+    <<type 40ms>>  
+<p>So really, really, yeah, very powerful. </p>
+<</type>>
+<</replace>>
+<</timed>>
+
+<<timed 60s>>
+  <<append "#caption">>
+    <<type 40ms>>  
+<p>Thanks very much.</p>
+<</type>>
+<</append>>
+<</timed>>
